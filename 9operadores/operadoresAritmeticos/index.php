@@ -18,7 +18,7 @@
  *              $numero = 3;
  *              $numero2 = 4;
  *              $resultado = $numero * $numero2;
- * division(/): realiza la division del valor de dos variable
+ * división(/): realiza la division del valor de dos variable
  *              $numero = 3;
  *              $numero2 = 4;
  *              $resultado = $numero / $numero2;
