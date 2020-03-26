@@ -4,7 +4,7 @@ echo "\n";
 echo "<h1> Variables y Tipos de datos: VARIABLES</h1>";
 echo "<p>Una variable en PHP en un 'contenedor' donde se almacenará cierta información.\n</p>";
 echo "\n";
-echo "<p>Para definir una variable tendremos que poner el simbolo '$' y despues al nobre de la variable.</p>";
+echo "<p>Para definir una variable tendremos que poner el simbolo '$' y despues al nombre de la variable.</p>";
 echo "<p>Un ejemplo de la definición de una variable sería:</p>";
 echo "\n";
 echo "<p><b>$ mivariable</b> "."= 'valor de la variable'</p>";
