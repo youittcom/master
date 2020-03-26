@@ -3,23 +3,23 @@
  * TIPOS DE DATOS:
  *      Los tipos de datos disponibles en PH son:
  * Tipos Escalares:
- *      - número entero
- *      - número de coma flotante
- *      - cadena de caracteres (string)
- *      - booleano (lógico)
+ *      - número entero --> $variable = 3;
+ *      - número de coma flotante ---> $variable = 2.34;
+ *      - cadena de caracteres (string) ---> $variable = "string"/'string'
+ *      - booleano (lógico) ---> $variable = true / false;
  * Tipos compuestos:
- *      - matriz (array)
- *      - objeto
+ *      - matriz (array) ---> $array = array();
+ *      - objeto ---> $objeto = new Objeto();
  *      - función de recordatorio
  *      - iterable (pseudotipo introducido a partir de php7.1)
  * Tipos Especiales:
- *      - NULL
+ *      - NULL   $variable = null;
  *      - Recurso
  *
  * Tipos Escalares(entero, flotante, cadena, booleano):
  *      Entero: El tipo entero (integer) permite almacenar un número
- *              de 32 bits o de 64 bits. Es ddecir, cuyos valores estén
- *              comprendido entre -2³¹ y +2³¹ para 32 bits. Y entre -2⁶³
+ *              de 32 bits o de 64 bits. Es decir, cuyos valores estén
+ *              comprendidos entre -2³¹ y +2³¹ para 32 bits. Y entre -2⁶³
  *              y +2⁶³-1 en 64 bits. Los valores del entero mas pequeño
  *              y del mas grande admitidos por su plataforma son facilitados
  *              por las constantes predefinidas PHP_INT_MIN y PHP_INT_MAX
@@ -44,8 +44,8 @@
  *                          Una expresion literal de tipo cadena de caracteres, se
  *                          puede representar bien entre "" o bien entre ''.
  *                          Hay que tener presente que si en una cadena que está
- *                          entre "jsd" le queremos añadir dentro de ésta otras "",
- *                          estas deberan estar ESCAPADAS con (\) para que se represneten.
+ *                          entre "jsd" le queremos añadir dentro de ésta otra "",
+ *                          éstas deberán estar ESCAPADAS con (\) para que se represneten.
  *                          Ejemplo:
  *                                  echo "yo digo \" HOLA\"";
  *                                  echo 'It\'s raining';
