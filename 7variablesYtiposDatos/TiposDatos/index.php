@@ -4,7 +4,7 @@
  *      Los tipos de datos disponibles en PH son:
  * Tipos Escalares:
  *      - número entero --> $variable = 3;
- *      - número de coma flotante ---> $variable = 2.34;
+ *      - número de coma flotante ---> $variable = 2.34; se pone el .
  *      - cadena de caracteres (string) ---> $variable = "string"/'string'
  *      - booleano (lógico) ---> $variable = true / false;
  * Tipos compuestos:
@@ -51,6 +51,12 @@
  *                                  echo 'It\'s raining';
  *
  */
-echo 'It\'s raining';
+//ejemplos en codigo
+$string = "Hola que tal";
+$numero_entero = 4;
+$numero_decimal = 4.6;
+$array =  array();
+$booleano = true;
+//$objeto = new miObjeto();
 
 
