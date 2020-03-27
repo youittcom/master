@@ -20,7 +20,7 @@ if($color == 'rojo') {
     echo "el color no es rojo";
 }
 /*
- * tipos de comparadores:
+ * operadores de comparacion:
  *      ==  ---> si es igual que
  *      === ---> si es igual que y además es del mismo tipo de dato
  *      !=  ---> si es distinto a
